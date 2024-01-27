@@ -1,0 +1,5 @@
+python code-294.510111
+java code-3.1343466810000002
+C basic(ijk)-7.680914
+C optimized(ikj)-3.563283
+C incorrectly optimized(jki)-9.433697
