@@ -17,7 +17,7 @@ slli t0, t0, 1
 
 # y * 3
 slli t2, t1, 2
-add t1, t1, t2
+sub t1, t2, t1
 
 sub t0, t0, t1
 
