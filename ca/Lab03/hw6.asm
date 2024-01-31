@@ -1,6 +1,6 @@
 #x * 6 - y * 3 (do multiplication using shifts, adds, and subs)
 #x * 6 = x * 3 + x * 3 => (x << 1) + x) << 1
-#y * 3 = (y<<1) + y
+#y * 3 = (y<<2) - y
 li a7, 5
 ecall
 mv t0, a0
@@ -16,7 +16,7 @@ add t0, t0, t2
 slli t0, t0, 1
 
 # y * 3
-slli t2, t1, 1
+slli t2, t1, 2
 add t1, t1, t2
 
 sub t0, t0, t1
